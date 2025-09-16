@@ -18,6 +18,5 @@ public class pruebaUtilidades {
         System.out.println("Resta(4-2): " + utilidades1.resta(4,2));
         System.out.println("Multiplicacion(4*2): " + utilidades1.multiplicacion(4,2));
         System.out.println("Division(4/2): " + utilidades1.division(4,2));
-             
     }   
 }
