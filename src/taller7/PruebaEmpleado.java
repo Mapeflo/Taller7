@@ -10,4 +10,14 @@ package taller7;
  */
 public class PruebaEmpleado {
     
+    public static void main(String[] args) {
+        Empleado empleado = new Empleado ("Luis", 1000000);
+        Empleado empleado2 = new Empleado ("Sofia", 2000000);
+        
+        System.out.println("Nombre: " + empleado.nombre);
+        System.out.println("Salario: " + empleado.getSalario());
+        System.out.println("Nombre: " + empleado2.nombre);
+        System.out.println("Salario: " + empleado2.getSalario());
+          
+    }
 }

@@ -10,16 +10,16 @@ package taller7;
  */
 public class Utilidades {
   
-    public double suma (double a, double b){
-       return a + b; 
+    public double suma (double n1, double n2){
+       return n1 + n2; 
 }
-    public double resta (double a, double b){
-       return a - b;
+    public double resta (double n1, double n2){
+       return n1 - n2;
 }
-    public double multiplicacion (double a, double b){
-       return a * b;
+    public double multiplicacion (double n1, double n2){
+       return n1 * n2;
 }
-    public double division (double a, double b){
-       return a/b;
+    public double division (double n1, double n2){
+       return n1/n2;
 }
 }
