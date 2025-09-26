@@ -12,9 +12,9 @@ public class PruebaCuentaBancaria {
    
    public static void main(String[] args) {
         
-       CuentaBancaria cuenta  = new CuentaBancaria("1234598",1656656,"Ahorros");
+       CuentaBancaria cuenta  = new CuentaBancaria("ADC1234598",1656656,"Ahorros");
        
-       cuenta.numeroCuenta = 67577887;
-    }
-    
+       // error: numeroCuenta tiene acceso privado en clase CuentaBancaria
+       cuenta.numeroCuenta = ADC67577887;
+    }   
 }
